@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#03A9F4">
 
     <Button
         android:id="@+id/b7"
@@ -16,6 +17,7 @@
         app:backgroundTint="#03A9F4"
         app:elevation="2dp"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteY="32dp"
+        android:stateListAnimator="@null"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
